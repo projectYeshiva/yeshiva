@@ -1,0 +1,12 @@
+header {
+    padding: 8px 16px;
+  }
+nav {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+  }
+  nav a{
+    font-size: 20px;
+    
+  }
