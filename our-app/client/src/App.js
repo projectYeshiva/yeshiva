@@ -9,7 +9,6 @@ import Navbar from "./components/Navbar/Navbar.js";
 import Tests from "./Pages/Tests/Tests";
 import EditingQuestions from "./Pages/EditingQuestions/EditingQuestions";
 function App() {
-
   const masectot = ["שבת", "ברכות", "ראש השנה"];
   const masecet = masectot.map((el) => ({ value: el, label: el }));
   const soogim = ["גפת", "רשי", "גמרשי"];
@@ -36,14 +35,17 @@ function App() {
   ];
   return (
     <>
- <BrowserRouter>
+      <BrowserRouter>
         <Navbar />
         <Routes>
-        <Route path="/מבחנים" element={<Tests/>} /> 
-        <Route path="/מבחנים/עריכת שאלות" element={<EditingQuestions categories={categories}/>} /> 
-
+          <Route path="/מבחנים" element={<Tests />} />
+          <Route
+            path="/מבחנים/עריכת שאלות"
+            element={<EditingQuestions categories={categories} />}
+          />
         </Routes>
-      </BrowserRouter>    </>
+      </BrowserRouter>{" "}
+    </>
   );
 }
 
