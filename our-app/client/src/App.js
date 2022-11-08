@@ -9,6 +9,7 @@ import Navbar from "./components/Navbar/Navbar.js";
 import Tests from "./Pages/Tests/Tests";
 import EditingQuestions from "./Pages/EditingQuestions/EditingQuestions";
 function App() {
+// const a
   const masectot = ["שבת", "ברכות", "ראש השנה"];
   const masecet = masectot.map((el) => ({ value: el, label: el }));
   const soogim = ["גפת", "רשי", "גמרשי"];
