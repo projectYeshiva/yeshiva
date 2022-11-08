@@ -8,6 +8,10 @@ import {
 import Navbar from "./components/Navbar/Navbar.js";
 import Tests from "./Pages/Tests/Tests";
 import EditingQuestions from "./Pages/EditingQuestions/EditingQuestions";
+import Grade from "./Pages/Grade/Grade.js";
+import DataEntry from "./components/DataEntry/DataEntry.js";
+
+
 function App() {
 
   const masectot = ["שבת", "ברכות", "ראש השנה"];
@@ -41,6 +45,9 @@ function App() {
         <Routes>
         <Route path="/מבחנים" element={<Tests/>} /> 
         <Route path="/מבחנים/עריכת שאלות" element={<EditingQuestions categories={categories}/>} /> 
+        <Route path="/ציונים" element={<Grade/>} /> 
+        {/* <Route path="/DataEntry" element={<DataEntry/>} />  */}
+
 
         </Routes>
       </BrowserRouter>    </>
