@@ -17,6 +17,7 @@ const Question = ({ label, select ,onChange}) => {
       <label>{label}</label>
       <br />
       <Select options={select} onChange={onChange}
+      
       //  onChange={(e) =>{
       //   console.log('aaa');
       //   // console.log(e.value);
