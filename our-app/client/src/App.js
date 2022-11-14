@@ -7,7 +7,8 @@ import {
 } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar.js";
 import Tests from "./Pages/Tests/Tests";
-// import EditingQuestions from "./components/EditingQuestions/EditingQuestions";
+
+import EditingQuestions from "./components/EditingQuestions/EditingQuestions";
 import Grade from "./Pages/Grade/Grade.js";
 // import DataEntry from "./components/DataEntry/DataEntry.js";
 
