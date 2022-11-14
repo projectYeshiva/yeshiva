@@ -28,7 +28,12 @@ const links = [
 const Navbar = () => {
   return (
     <header>
-      <nav>
+      <nav style={{
+      fontSize: "3em",
+      padding: "10px",
+      display: "flex",
+      justifyContent: "space-around",
+    }}>
         {links.map((link, index) => (
           <Link to={link.path} key={`${link.path}-${index}`}>
             {link.title}
