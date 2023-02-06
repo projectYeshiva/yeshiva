@@ -2,9 +2,9 @@ import React from 'react'
 
 const Button = ({text, onClick}) => {
   return (
-    <span  onClick={onClick}>
+    <button  onClick={onClick}>
         {text}
-    </span>
+    </button>
   )
 }
 

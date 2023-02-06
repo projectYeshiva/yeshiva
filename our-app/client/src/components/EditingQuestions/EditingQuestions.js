@@ -27,6 +27,7 @@ const EditingQuestions = ({ categories }) => {
           value={el.value}
           onChange={(e)=>{            setSaveAgdara([...saveAgdara,e.value]);
             ;}}
+            
             // console.log(el.onChange);
             // console.log(el.value);
             // setSaveAgdara(el.value);

@@ -1,10 +1,11 @@
 import React from 'react'
+import Input from '../Input/Input'
 
 const Shinun = () => {
   return (
     <div>
         <h2>תאריכי המבחנים:</h2>
-        <input type={'date'}/>
+        <Input type={'date'}/>
     </div>
   )
 }

@@ -6,14 +6,14 @@ import EditingQuestions from "../../components/EditingQuestions/EditingQuestions
 import Button from "../../components/Button/Button";
 import ConductingTest from "../../components/ConductingTest/ConductingTest";
 
-const Tests = () => {
+const Tests = ({masectot}) => {
   const [click, setClick] = useState({
     EditingQuestions:false,
     ConductingTest:false
   });
   const agdarot=["רגיל","הבנה","בהירות","סיכום"];
   const agdara= agdarot.map((el) => ({ value: el, label: el }));  
-  const masectot = ["שבת", "ברכות", "ראש השנה","זרעים","עירובין","פסחים","שקלים","יומא","סוכה","ביצה","תענית","מגילה","מועד קטן","חגיגה","כתובות","נדרים","נזיר","סוטה","יבמות","גיטין","קידושין","בבא קמא","בבא מציעא","בבא בתרא","סנהדרין","מכות","שבועות","עבודה זרה","זבחים","מנחות","חולין","בכורות","תמורה"];
+  
   const masecet = masectot.map((el) => ({ value: el, label: el }));
   const soogim = ["גפת", "רשי", "גמרשי"];
   const soog = soogim.map((el) => ({ value: el, label: el }));
