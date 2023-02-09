@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 const diariesTeamModel = new mongoose.Schema({
   סדר: {
-    type: Strineamg,
+    type: String,
   },
   תקופה: {
     type: String,
